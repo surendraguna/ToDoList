@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', cursive;
+    background: linear-gradient(90deg, #ff4066, #fff16a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container{
+    margin-top: 75px;
+    background-color: white;
+    width: 30vw;
+    height: 60vh;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.name{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.add{
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #edeef0;
+    border-radius: 30px;
+
+}
+
+.add input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 14px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.list{
+    height: 70%;
+    overflow-y: auto;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    padding-left: 5%;
+}
+
+ul{
+    list-style: none;
+    padding-left: 50px;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #edeef0;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 80%;
+    font-size: 14px;
+}
+
+ul li span{ 
+    width: 15px;
+}
+
+ul li span:hover{
+    background: #ff5945;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 15px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        width: 70%; 
+    }
+
+    .add input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px; 
+        padding: 10px 20px;
+    }
+
+    .list {
+        font-size: 14px;
+        padding-left: 5%;
+    }
+
+    ul li {
+        font-size: 14px; 
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .add input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .list {
+        font-size: 12px;
+        padding-left: 3%;
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}

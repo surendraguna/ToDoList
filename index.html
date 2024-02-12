@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+</head>
+<body onload="showTask()">
+    <div class="container">
+        <div class="name">
+            <p>To-Do List</p>
+            <img src="icon.jpg" alt="">
+        </div>
+        <div class="add">
+            <input type="text" id="input" placeholder="Add task">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <div class="list">
+            <ul id="addList" class="addList">
+            </ul>
+        </div>
+    </div>
+    <div class="clear" style="margin: 30px 0px;">
+        <button onclick="clearData()"   >Clear Data</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
