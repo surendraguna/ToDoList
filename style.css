@@ -17,7 +17,8 @@ body{
 
 .container{
     margin-top: 75px;
-    background-color: white;
+
+    background: linear-gradient(180deg, #55dfdf, #22a0b9);
     width: 30vw;
     height: 60vh;
     text-align: center;
