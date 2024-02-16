@@ -37,7 +37,10 @@ This To-Do List application was created by Surendra Boya.
 ## Getting Started
 To get started with this To-Do List application, simply clone this repository to your local machine and open the `index.html` file in a web browser.
 
-```bash
-git clone <repository-url>
-cd <repository-directory>
+```
+git clone https://github.com/surendraguna/ToDoList.git
+cd ToDoList
+```
+
+
 
