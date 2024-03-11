@@ -78,6 +78,8 @@ button{
     font-family: 'Poppins', sans-serif;
     width: 80%;
     padding-left: 5%;
+    scrollbar-width: thin;
+    scrollbar-color: #ff5945 #edeef0;
 }
 
 ul{
